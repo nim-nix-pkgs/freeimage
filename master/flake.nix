@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-freeimage-master.flake = false;
+  inputs.src-freeimage-master.ref   = "refs/heads/master";
   inputs.src-freeimage-master.owner = "barcharcraz";
-  inputs.src-freeimage-master.ref   = "master";
   inputs.src-freeimage-master.repo  = "nim-freeimage";
   inputs.src-freeimage-master.type  = "github";
   
