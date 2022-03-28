@@ -11,6 +11,7 @@
   inputs.src-freeimage-master.ref   = "refs/heads/master";
   inputs.src-freeimage-master.owner = "barcharcraz";
   inputs.src-freeimage-master.repo  = "nim-freeimage";
+  inputs.src-freeimage-master.dir   = "";
   inputs.src-freeimage-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
